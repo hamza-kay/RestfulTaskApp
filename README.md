@@ -1,5 +1,3 @@
-# RestfulTaskApp
-
 # Getting Started
 Clone the project repository by running the command below if you use SSH
 
@@ -21,13 +19,18 @@ Once the database is settup and migrations are up, run
 
 php artisan serve
 
-and visit Laravel development server <http://127.0.0.1:8000> to see the application in action.
+
+# Functionality
+
+Visit Laravel development server <http://127.0.0.1:8000> to see the application in action.
 
 Register on the laravel landing page, then you'll be able to perform crud fucntions on projects and tasks.
 
-For e.g  <http://127.0.0.1:8000/projects uri route will hit projects controller which will return the index page displaying projects.
+For e.g  <http://127.0.0.1:8000/projects uri route will hit projects controller which will return the index blade page displaying projects.
 
 http://127.0.0.1:8000/projects/create uri route will open the create project form.
 
 http://127.0.0.1:8000/projects/1 uri route will show the projects with the id of 1.
+
+The other routes can be found using php artisan route:list
 
